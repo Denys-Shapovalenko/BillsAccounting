@@ -1,0 +1,4 @@
+C:\Work\projects\bills-accounting\BillsAccountings.Models\obj\Debug\netcoreapp3.0\BillsAccountings.Models.csprojAssemblyReference.cache
+C:\Work\projects\bills-accounting\BillsAccountings.Models\obj\Debug\netcoreapp3.0\BillsAccountings.Models.AssemblyInfoInputs.cache
+C:\Work\projects\bills-accounting\BillsAccountings.Models\obj\Debug\netcoreapp3.0\BillsAccountings.Models.AssemblyInfo.cs
+C:\Work\projects\bills-accounting\BillsAccountings.Models\obj\Debug\netcoreapp3.0\BillsAccountings.Models.csproj.CoreCompileInputs.cache

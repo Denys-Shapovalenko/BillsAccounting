@@ -1,0 +1,9 @@
+C:\Work\projects\bills-accounting\BillsAccountings.Models\bin\Debug\netstandard2.0\BillsAccountings.Models.deps.json
+C:\Work\projects\bills-accounting\BillsAccountings.Models\bin\Debug\netstandard2.0\BillsAccountings.Models.dll
+C:\Work\projects\bills-accounting\BillsAccountings.Models\bin\Debug\netstandard2.0\BillsAccountings.Models.pdb
+C:\Work\projects\bills-accounting\BillsAccountings.Models\obj\Debug\netstandard2.0\BillsAccountings.Models.csprojAssemblyReference.cache
+C:\Work\projects\bills-accounting\BillsAccountings.Models\obj\Debug\netstandard2.0\BillsAccountings.Models.AssemblyInfoInputs.cache
+C:\Work\projects\bills-accounting\BillsAccountings.Models\obj\Debug\netstandard2.0\BillsAccountings.Models.AssemblyInfo.cs
+C:\Work\projects\bills-accounting\BillsAccountings.Models\obj\Debug\netstandard2.0\BillsAccountings.Models.csproj.CoreCompileInputs.cache
+C:\Work\projects\bills-accounting\BillsAccountings.Models\obj\Debug\netstandard2.0\BillsAccountings.Models.dll
+C:\Work\projects\bills-accounting\BillsAccountings.Models\obj\Debug\netstandard2.0\BillsAccountings.Models.pdb

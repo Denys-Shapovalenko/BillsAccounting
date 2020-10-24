@@ -4,14 +4,92 @@
     "C:\\Work\\projects\\bills-accounting\\BillsAccounting.Web\\BillsAccounting.Web.csproj": {}
   },
   "projects": {
-    "C:\\Work\\projects\\bills-accounting\\BillsAccounting.Web\\BillsAccounting.Web.csproj": {
+    "C:\\Work\\projects\\bills-accounting\\BillsAccounting.DataAccess\\BillsAccounting.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\projects\\bills-accounting\\BillsAccounting.Web\\BillsAccounting.Web.csproj",
-        "projectName": "BillsAccounting.Web",
-        "projectPath": "C:\\Work\\projects\\bills-accounting\\BillsAccounting.Web\\BillsAccounting.Web.csproj",
+        "projectUniqueName": "C:\\Work\\projects\\bills-accounting\\BillsAccounting.DataAccess\\BillsAccounting.DataAccess.csproj",
+        "projectName": "BillsAccounting.DataAccess",
+        "projectPath": "C:\\Work\\projects\\bills-accounting\\BillsAccounting.DataAccess\\BillsAccounting.DataAccess.csproj",
         "packagesPath": "C:\\Users\\shapovalenko\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\projects\\bills-accounting\\BillsAccounting.Web\\obj\\",
+        "outputPath": "C:\\Work\\projects\\bills-accounting\\BillsAccounting.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shapovalenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Work\\projects\\bills-accounting\\BillsAccounting.Models\\BillsAccounting.Models.csproj": {
+                "projectPath": "C:\\Work\\projects\\bills-accounting\\BillsAccounting.Models\\BillsAccounting.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Work\\projects\\bills-accounting\\BillsAccounting.Models\\BillsAccounting.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\projects\\bills-accounting\\BillsAccounting.Models\\BillsAccounting.Models.csproj",
+        "projectName": "BillsAccounting.Models",
+        "projectPath": "C:\\Work\\projects\\bills-accounting\\BillsAccounting.Models\\BillsAccounting.Models.csproj",
+        "packagesPath": "C:\\Users\\shapovalenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\projects\\bills-accounting\\BillsAccounting.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shapovalenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +115,75 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Work\\projects\\bills-accounting\\BillsAccounting.Web\\BillsAccounting.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\projects\\bills-accounting\\BillsAccounting.Web\\BillsAccounting.Web.csproj",
+        "projectName": "BillsAccounting.Web",
+        "projectPath": "C:\\Work\\projects\\bills-accounting\\BillsAccounting.Web\\BillsAccounting.Web.csproj",
+        "packagesPath": "C:\\Users\\shapovalenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\projects\\bills-accounting\\BillsAccounting.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shapovalenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Work\\projects\\bills-accounting\\BillsAccounting.DataAccess\\BillsAccounting.DataAccess.csproj": {
+                "projectPath": "C:\\Work\\projects\\bills-accounting\\BillsAccounting.DataAccess\\BillsAccounting.DataAccess.csproj"
+              },
+              "C:\\Work\\projects\\bills-accounting\\BillsAccounting.Models\\BillsAccounting.Models.csproj": {
+                "projectPath": "C:\\Work\\projects\\bills-accounting\\BillsAccounting.Models\\BillsAccounting.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

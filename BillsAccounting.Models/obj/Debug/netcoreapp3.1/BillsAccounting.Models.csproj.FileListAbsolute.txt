@@ -1,0 +1,9 @@
+C:\Work\projects\bills-accounting\BillsAccounting.Models\bin\Debug\netcoreapp3.1\BillsAccounting.Models.deps.json
+C:\Work\projects\bills-accounting\BillsAccounting.Models\bin\Debug\netcoreapp3.1\BillsAccounting.Models.dll
+C:\Work\projects\bills-accounting\BillsAccounting.Models\bin\Debug\netcoreapp3.1\BillsAccounting.Models.pdb
+C:\Work\projects\bills-accounting\BillsAccounting.Models\obj\Debug\netcoreapp3.1\BillsAccounting.Models.csprojAssemblyReference.cache
+C:\Work\projects\bills-accounting\BillsAccounting.Models\obj\Debug\netcoreapp3.1\BillsAccounting.Models.AssemblyInfoInputs.cache
+C:\Work\projects\bills-accounting\BillsAccounting.Models\obj\Debug\netcoreapp3.1\BillsAccounting.Models.AssemblyInfo.cs
+C:\Work\projects\bills-accounting\BillsAccounting.Models\obj\Debug\netcoreapp3.1\BillsAccounting.Models.csproj.CoreCompileInputs.cache
+C:\Work\projects\bills-accounting\BillsAccounting.Models\obj\Debug\netcoreapp3.1\BillsAccounting.Models.dll
+C:\Work\projects\bills-accounting\BillsAccounting.Models\obj\Debug\netcoreapp3.1\BillsAccounting.Models.pdb

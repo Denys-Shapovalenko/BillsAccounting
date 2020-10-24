@@ -1,0 +1,10 @@
+@model BillsAccounting.Web.ViewModels.ServiceViewModel
+<section class="row mb-3 service">
+    <header class="col-12">
+        <h4>@Model.Service.Name</h4>
+    </header>
+    <div class="col-12">
+        <label for="to-pay-2">Для оплаты</label>
+        <input class="form-control" name="@Model.PaymentField" id="to-pay-2" type="text" pattern="\d+,?\d+">
+    </div>
+</section>

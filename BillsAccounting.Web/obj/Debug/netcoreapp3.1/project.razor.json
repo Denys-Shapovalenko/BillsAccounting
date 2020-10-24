@@ -12422,6 +12422,49 @@
         }
       },
       {
+        "HashCode": 1541133069,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ServiceViewComponentTagHelper",
+        "AssemblyName": "BillsAccounting.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:service",
+            "Attributes": [
+              {
+                "Name": "field"
+              },
+              {
+                "Name": "service"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "field",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "field"
+            }
+          },
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "service",
+            "TypeName": "BillsAccounting.Models.BillsComponents.Service",
+            "Metadata": {
+              "Common.PropertyName": "service"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ServiceViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Service"
+        }
+      },
+      {
         "HashCode": 1912741130,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -14429,6 +14472,11 @@
     {
       "FilePath": "c:\\Work\\projects\\bills-accounting\\BillsAccounting.Web\\Pages\\ViewBill.cshtml",
       "TargetPath": "Pages\\ViewBill.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Work\\projects\\bills-accounting\\BillsAccounting.Web\\Pages\\Components\\Service\\default.cshtml",
+      "TargetPath": "Pages\\Components\\Service\\default.cshtml",
       "FileKind": "mvc"
     },
     {

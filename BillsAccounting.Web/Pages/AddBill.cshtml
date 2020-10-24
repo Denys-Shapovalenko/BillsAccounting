@@ -1,7 +1,46 @@
 ﻿@page "/add/bill"
-@model MyApp.Namespace.AddBillModel
+@model BillsAccounting.Web.AddBillModel
 @{
+    ViewData["Title"] = "Add bill";
 }
-<section>
-    <header><h2>Add new bill</h2></header>
+<section class="col-7">
+    <header>
+        <h2>@ViewData["Title"]</h2>
+    </header>
+    <form method="post">
+        <div class="form-row mb-5">
+            <label for="bill-number">Account number</label>
+            <input id="bill-number" class="form-control" type="text" pattern="\d+" name="BillData.Number" value="@Model.BillData.Number">
+        </div>
+        <div class="form-row">
+            <section class="container">
+                <header class="row">
+                    <h3 class="w-100">Service</h3>
+                    @if (TempData["Status"] != null)
+                    {
+                        <p class="w-100">@TempData["Status"]</p>
+                    }
+                </header>
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        @await Component.InvokeAsync("Service", new { field = "BillData.HotWaterAndHeating", service = Model.BillData.HotWaterAndHeating})
+                        @await Component.InvokeAsync("Service", new { field = "BillData.Electricity", service = @Model.BillData.Electricity })
+                        @await Component.InvokeAsync("Service", new { field = "BillData.ColdWater", service = @Model.BillData.ColdWater })
+                    </div>
+                    <div class="col-12 col-sm-6 d-flex align-items-center">
+                        <div class="form-group">
+                            <label for="overpayment">
+                                Overpayment
+                            </label>
+                            <input class="form-control" id="overpayment" name="BillData.Overpayment" pattern="\d+,?\d+">
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn-primary" type="submit">Save</button>
+                    <button class="btn btn-secondary">Clear</button>
+                </div>
+            </section>
+        </div>
+    </form>
 </section>

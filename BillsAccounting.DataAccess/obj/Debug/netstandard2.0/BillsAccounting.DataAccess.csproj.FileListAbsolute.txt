@@ -1,0 +1,9 @@
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\bin\Debug\netstandard2.0\BillsAccounting.DataAccess.deps.json
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\bin\Debug\netstandard2.0\BillsAccounting.DataAccess.dll
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\bin\Debug\netstandard2.0\BillsAccounting.DataAccess.pdb
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\obj\Debug\netstandard2.0\BillsAccounting.DataAccess.csprojAssemblyReference.cache
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\obj\Debug\netstandard2.0\BillsAccounting.DataAccess.AssemblyInfoInputs.cache
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\obj\Debug\netstandard2.0\BillsAccounting.DataAccess.AssemblyInfo.cs
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\obj\Debug\netstandard2.0\BillsAccounting.DataAccess.csproj.CoreCompileInputs.cache
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\obj\Debug\netstandard2.0\BillsAccounting.DataAccess.dll
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\obj\Debug\netstandard2.0\BillsAccounting.DataAccess.pdb

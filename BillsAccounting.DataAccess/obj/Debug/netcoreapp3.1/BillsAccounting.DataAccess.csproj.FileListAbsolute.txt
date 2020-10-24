@@ -1,0 +1,15 @@
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\bin\Debug\netcoreapp3.1\BillsAccounting.DataAccess.deps.json
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\bin\Debug\netcoreapp3.1\BillsAccounting.DataAccess.dll
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\bin\Debug\netcoreapp3.1\BillsAccounting.DataAccess.pdb
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\obj\Debug\netcoreapp3.1\BillsAccounting.DataAccess.csprojAssemblyReference.cache
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\obj\Debug\netcoreapp3.1\BillsAccounting.DataAccess.AssemblyInfoInputs.cache
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\obj\Debug\netcoreapp3.1\BillsAccounting.DataAccess.AssemblyInfo.cs
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\obj\Debug\netcoreapp3.1\BillsAccounting.DataAccess.csproj.CoreCompileInputs.cache
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\obj\Debug\netcoreapp3.1\BillsAccounting.DataAccess.dll
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\obj\Debug\netcoreapp3.1\BillsAccounting.DataAccess.pdb
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\obj\Debug\netcoreapp3.1\BillsAccounting.DataAccess.csproj.CopyComplete
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\bin\Debug\netcoreapp3.1\BillsAccounting.DataAccess.runtimeconfig.json
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\bin\Debug\netcoreapp3.1\BillsAccounting.DataAccess.runtimeconfig.dev.json
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\obj\Debug\netcoreapp3.1\BillsAccounting.DataAccess.genruntimeconfig.cache
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\bin\Debug\netcoreapp3.1\BillsAccounting.Models.dll
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\bin\Debug\netcoreapp3.1\BillsAccounting.Models.pdb
