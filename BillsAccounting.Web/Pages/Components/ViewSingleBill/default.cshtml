@@ -1,0 +1,53 @@
+@using BillsAccounting.Models.BillsComponents
+@model BillsAccounting.Models.Bill
+
+<button class="btn btn-primary" data-toggle="modal" data-target="#bill-details-@Model.BillId">Detail</button>
+<!-- Modal -->
+<div class="modal fade" id="bill-details-@Model.BillId" tabindex="-1" role="dialog" aria-labelledby="bill-details-modal-label-@Model.BillId" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <section class="modal-content">
+      <header class="modal-header">
+        <h5 class="modal-title" id="bill-details-modal-label-@Model.BillId">Bills detail</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </header>
+      <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">Number: </div>
+                <div class="col-sm-12 col-md-8">@Model.Number</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">Creation date: </div>
+                <div class="col-sm-12 col-md-8">@Model.CreationDate.ToString("dd MMMM yyyy")</div>
+            </div>
+            <div class="row my-3">
+                <section class="col-12" aria-labelledby="bill-details-services">
+                    <header class="w-100">
+                        <h6 id="bill-details-services">Services</h6>
+                    </header>
+                    <div class="container-fluid my-2">
+                        <vc:single-bill-service service="Model.ColdWater"></vc:single-bill-service>
+                        <vc:single-bill-service service="Model.HotWaterAndHeating"></vc:single-bill-service>
+                        <vc:single-bill-service service="Model.Electricity"></vc:single-bill-service>
+                        <vc:single-bill-service service=@(new Service("Overpayment", Model.Overpayment))></vc:single-bill-service>
+                        <div class="row my-4 text-weight-bold">
+                          <div class="col-sm-12 col-md-5 text-uppercase">
+                            Total
+                          </div>
+                          <div class="col-sm-12 col-md-7">
+                            @Model.TotalPay
+                          </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+      </div>
+      <footer class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal" aria-label="Закрыть">Закрыть</button>
+      </footer>
+    </section>
+  </div>
+</div>

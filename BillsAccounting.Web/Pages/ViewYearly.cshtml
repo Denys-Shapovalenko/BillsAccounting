@@ -1,4 +1,35 @@
 ﻿@page "/view/yearly"
 @model MyApp.Namespace.ViewYearlyModel
 @{
+    ViewData["Title"] = "View bills for current year";
 }
+<section class="container">
+    <header class="row">
+        
+        <h1>@ViewData["Title"]</h1>
+    </header>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Number of bill</th>
+                <th>Creation date</th>
+                <th>Summa</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var bill in Model.Bills)
+            {
+                <tr>
+                    <td>@bill.Number</td>
+                    <td>@bill.CreationDate.ToString("dd MMM yyyy")</td>
+                    <td>@bill.TotalPay</td>
+                    
+                    <td>
+                        <vc:view-single-bill bill="bill"></vc:view-single-bill>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</section>

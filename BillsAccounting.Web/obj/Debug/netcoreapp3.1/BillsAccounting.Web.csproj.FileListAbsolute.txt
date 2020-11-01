@@ -85,3 +85,5 @@ C:\Work\projects\bills-accounting\BillsAccounting.Web\bin\Debug\netcoreapp3.1\Mi
 C:\Work\projects\bills-accounting\BillsAccounting.Web\bin\Debug\netcoreapp3.1\BillsAccounting.Models.dll
 C:\Work\projects\bills-accounting\BillsAccounting.Web\bin\Debug\netcoreapp3.1\BillsAccounting.Models.pdb
 C:\Work\projects\bills-accounting\BillsAccounting.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Components\Service\default.cshtml.g.cs
+C:\Work\projects\bills-accounting\BillsAccounting.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Components\SingleBillService\default.cshtml.g.cs
+C:\Work\projects\bills-accounting\BillsAccounting.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Components\ViewSingleBill\default.cshtml.g.cs

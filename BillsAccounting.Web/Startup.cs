@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
+using System.IO;
 using BillsAccounting.DataAccess.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -26,6 +26,7 @@ namespace BillsAccounting.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            DbContextOptionsBuilder dcob = new DbContextOptionsBuilder();
             services.AddDbContext<BillContext>(options => options.UseSqlite(Configuration.GetConnectionString("Default")));
         }
 

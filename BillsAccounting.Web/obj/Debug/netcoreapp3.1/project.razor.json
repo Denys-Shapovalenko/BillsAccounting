@@ -12465,6 +12465,70 @@
         }
       },
       {
+        "HashCode": -1057483808,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ViewSingleBillComponentViewComponentTagHelper",
+        "AssemblyName": "BillsAccounting.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:view-single-bill-component",
+            "Attributes": [
+              {
+                "Name": "bill"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "bill",
+            "TypeName": "BillsAccounting.Models.Bill",
+            "Metadata": {
+              "Common.PropertyName": "bill"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ViewSingleBillComponentViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "ViewSingleBillComponent"
+        }
+      },
+      {
+        "HashCode": 729194200,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ViewSingleBillViewComponentTagHelper",
+        "AssemblyName": "BillsAccounting.Web",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:view-single-bill",
+            "Attributes": [
+              {
+                "Name": "bill"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "bill",
+            "TypeName": "BillsAccounting.Models.Bill",
+            "Metadata": {
+              "Common.PropertyName": "bill"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ViewSingleBillViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "ViewSingleBill"
+        }
+      },
+      {
         "HashCode": 1912741130,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -14465,6 +14529,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Work\\projects\\bills-accounting\\BillsAccounting.Web\\Pages\\Components\\SingleBillService\\default.cshtml",
+      "TargetPath": "Pages\\Components\\SingleBillService\\default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Work\\projects\\bills-accounting\\BillsAccounting.Web\\Pages\\ViewYearly.cshtml",
       "TargetPath": "Pages\\ViewYearly.cshtml",
       "FileKind": "mvc"
@@ -14477,6 +14546,11 @@
     {
       "FilePath": "c:\\Work\\projects\\bills-accounting\\BillsAccounting.Web\\Pages\\Components\\Service\\default.cshtml",
       "TargetPath": "Pages\\Components\\Service\\default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Work\\projects\\bills-accounting\\BillsAccounting.Web\\Pages\\Components\\ViewSingleBill\\default.cshtml",
+      "TargetPath": "Pages\\Components\\ViewSingleBill\\default.cshtml",
       "FileKind": "mvc"
     },
     {
