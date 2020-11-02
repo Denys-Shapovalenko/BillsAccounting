@@ -8,6 +8,8 @@ using BillsAccounting.Web.Common;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
+using BillsAccounting.DataAccess.Extensions;
+using BillsAccounting.DataAccess.Specifications;
 
 namespace MyApp.Namespace
 {
@@ -25,7 +27,8 @@ namespace MyApp.Namespace
             .Include(bill => bill.Electricity)
             .Include(bill => bill.ColdWater)
             .Include(bill => bill.HotWaterAndHeating)
-            .Where(x => x.CreationDate.Year == DateTime.Today.Year).ToList();
+            .AsQueryable().Specify<Bill>(new CurrentYearBillSpecification()).
+            ToList();
         }
     }
 }

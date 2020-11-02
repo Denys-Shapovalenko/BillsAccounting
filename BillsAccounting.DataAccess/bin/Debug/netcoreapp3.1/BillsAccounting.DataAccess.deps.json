@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "BillsAccounting.DataAccess/1.0.0": {
         "dependencies": {
+          "BillsAccounting.Abstract": "1.0.0",
           "BillsAccounting.Models": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.9",
           "Microsoft.EntityFrameworkCore.Design": "3.1.9",
@@ -1068,6 +1069,11 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "BillsAccounting.Abstract/1.0.0": {
+        "runtime": {
+          "BillsAccounting.Abstract.dll": {}
+        }
+      },
       "BillsAccounting.Models/1.0.0": {
         "runtime": {
           "BillsAccounting.Models.dll": {}
@@ -1829,6 +1835,11 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "BillsAccounting.Abstract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "BillsAccounting.Models/1.0.0": {
       "type": "project",

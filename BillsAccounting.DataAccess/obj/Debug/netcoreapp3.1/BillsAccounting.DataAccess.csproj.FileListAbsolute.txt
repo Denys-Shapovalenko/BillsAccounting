@@ -13,3 +13,5 @@ C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\bin\Debug\netcoreap
 C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\obj\Debug\netcoreapp3.1\BillsAccounting.DataAccess.genruntimeconfig.cache
 C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\bin\Debug\netcoreapp3.1\BillsAccounting.Models.dll
 C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\bin\Debug\netcoreapp3.1\BillsAccounting.Models.pdb
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\bin\Debug\netcoreapp3.1\BillsAccounting.Abstract.dll
+C:\Work\projects\bills-accounting\BillsAccounting.DataAccess\bin\Debug\netcoreapp3.1\BillsAccounting.Abstract.pdb

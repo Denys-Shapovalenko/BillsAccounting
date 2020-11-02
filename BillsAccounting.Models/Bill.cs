@@ -29,5 +29,7 @@ namespace BillsAccounting.Models
         public Service HotWaterAndHeating { get; private set; }
         public Service Electricity { get; private set; }
         public Service ColdWater { get; private set; }
+
+        public DateTime CreationDate { get; set; } = DateTime.Today;
     }
 }

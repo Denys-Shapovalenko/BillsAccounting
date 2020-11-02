@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mlRgVi1yCewRBCgaplUF0/HZFHOGD6pkL3V+kT6nY354KOptn3SPVoGhcDqMfojXL9zXf543IiqIL/lPSfemYQ==",
+  "dgSpecHash": "3XeSyH/9QracL5CdCZcQisFHGCBqXyJSMey+PE5wOCavoMzRFN6bvOQ8VD0pCYVrg6/ub0pN3EeBFNLYzzhd/Q==",
   "success": true,
   "projectFilePath": "C:\\Work\\projects\\bills-accounting\\BillsAccounting.DataAccess\\BillsAccounting.DataAccess.csproj",
   "expectedPackageFiles": [

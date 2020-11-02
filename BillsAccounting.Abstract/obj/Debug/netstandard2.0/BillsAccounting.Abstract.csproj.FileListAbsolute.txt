@@ -1,0 +1,9 @@
+C:\Work\projects\bills-accounting\BillsAccounting.Abstract\bin\Debug\netstandard2.0\BillsAccounting.Abstract.deps.json
+C:\Work\projects\bills-accounting\BillsAccounting.Abstract\bin\Debug\netstandard2.0\BillsAccounting.Abstract.dll
+C:\Work\projects\bills-accounting\BillsAccounting.Abstract\bin\Debug\netstandard2.0\BillsAccounting.Abstract.pdb
+C:\Work\projects\bills-accounting\BillsAccounting.Abstract\obj\Debug\netstandard2.0\BillsAccounting.Abstract.csprojAssemblyReference.cache
+C:\Work\projects\bills-accounting\BillsAccounting.Abstract\obj\Debug\netstandard2.0\BillsAccounting.Abstract.AssemblyInfoInputs.cache
+C:\Work\projects\bills-accounting\BillsAccounting.Abstract\obj\Debug\netstandard2.0\BillsAccounting.Abstract.AssemblyInfo.cs
+C:\Work\projects\bills-accounting\BillsAccounting.Abstract\obj\Debug\netstandard2.0\BillsAccounting.Abstract.csproj.CoreCompileInputs.cache
+C:\Work\projects\bills-accounting\BillsAccounting.Abstract\obj\Debug\netstandard2.0\BillsAccounting.Abstract.dll
+C:\Work\projects\bills-accounting\BillsAccounting.Abstract\obj\Debug\netstandard2.0\BillsAccounting.Abstract.pdb
